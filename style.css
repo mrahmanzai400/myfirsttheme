@@ -1,0 +1,142 @@
+/*
+Theme Name: Bowl Game Winner
+Theme URI: http://wordpress.org/extend/themes/twentyeleven
+Author: Maiwand Rahmanzai
+Author URI: http://wordpress.org/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#wrapper {
+	width:940px;
+	margin:0px auto;
+}
+
+header {
+	padding:20px;
+	border:1px solid #bbb;
+	background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(#F20A0A),to(#EBAFAF));
+}
+
+header h1 {
+	font-size:30px;
+	line-height:30px;
+}
+
+header h1 a {
+	-webkit-transition:-webkit-transform 0.5;
+	transition:transform 0.5;
+	display:inline-block;
+	color:#E0321B;
+	line-height:120px;
+}
+
+header img:hover {
+	-webkit-transition:-webkit-transform 2.5;
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	text-decoration:blink;
+}
+
+header h1 a:hover {
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	text-decoration:blink;
+	color:#FA9D2A;
+}
+
+nav {
+	background-color:black;
+	pading:10px;
+}
+
+nav ul {
+	list_style:none;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li {
+	float:left
+}
+
+nav ul li a {
+	display:block;
+	color:#fff;
+	font-size:20px;
+	padding:4px 20px;
+}
+
+nav ul li a:hover {
+	text-decoration:none;
+	color:#F20A0A;
+	
+}
+
+nav.affix {
+	top:0px;
+	width:100%;
+}
+
+div.span9 {
+	float:left;
+	padding-bottom:30px;
+}
+
+img {
+	width:100px;
+	float:left;
+}
+
+.search-results ul li a {
+	font-size:20pt;
+}
+
+.meta {
+	color:#777;
+	margin:6px 0px;
+}
+
+.meta span {
+	margin-right:26px;
+}
+
+/* CMS style*/
+
+.alignright {
+	float:right;
+	margin:8px;
+}
+
+.alignleft {
+	float:left;
+	margin:0px 8px 8px 0px;
+}
+
+#main {
+	transition:background-color 100s;
+	-webkit-transition:background-color 100s;
+}
+
+.highlight {
+	background-color:#EDE8B2
+}
+
+@media (max-width): 480px) {
+	#wrapper {
+		width:100%;
+	}
+	body {
+		background-image:none;
+		padding:40px 0px 0px 0px;
+	}
+	#wrapper {
+		width:100px;
+	}
+	.post.img {
+	float:none;
+	width:100%;
+	}
+}
